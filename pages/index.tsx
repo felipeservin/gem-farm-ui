@@ -51,7 +51,7 @@ const StakePage = () => {
         }}
       >
         <Heading>Your staking account</Heading>
-        <Text>Below you can stake, unstake and collect rewards.</Text>
+        <Text>Below you can stake, unstake and collect rewards</Text>
 
         {!publicKey ? (
           /** Render nothing if there is no wallet connected. */
